@@ -1,0 +1,140 @@
+/ * PrismJS 1.14.0
+http://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript * /
+/ **
+ * pyramid.js JavaScript，CSS和HTML的默认主题
+ *基于dabblet（http://dabblet.com）
+ * @作者Lea Verou
+ * /
+
+代码[class * =“ language-”]，
+pre [class * =“ language-”] {
+	颜色：黑色
+	背景：无；
+	文字阴影：0 1px白色；
+	字体家族：Consolas，摩纳哥，“ Andale Mono”，“ Ubuntu Mono”，等宽字体；
+	文字对齐：左；
+	空白：pre;
+	字距：正常；
+	断字：正常；
+	自动换行：正常；
+	行高：1.5；
+
+	-moz-tab-size：4；
+	-o-tab-size：4;
+	制表符大小：4；
+
+	-webkit-连字符：无；
+	-连字号：无；
+	-ms-连字符：无；
+	连字符：无；
+}
+
+pre [class * =“ language-”] ::-moz-selection，pre [class * =“ language-”] ::-moz-selection，
+code [class * =“ language-”] ::-moz-selection，code [class * =“ language-”] ::-moz-selection {
+	文本阴影：无；
+	背景：＃b3d4fc;
+}
+
+pre [class * =“ language-”] :: selection，pre [class * =“ language-”] :: selection，
+code [class * =“ language-”] :: selection，code [class * =“ language-”] :: selection {
+	文本阴影：无；
+	背景：＃b3d4fc;
+}
+
+@media print {
+	代码[class * =“ language-”]，
+	pre [class * =“ language-”] {
+		文本阴影：无；
+	}
+}
+
+/ *代码块* /
+pre [class * =“ language-”] {
+	填充：1em；
+	边距：.5em 0;
+	溢出：自动；
+}
+
+：not（pre）>代码[class * =“ language-”]，
+pre [class * =“ language-”] {
+	背景：＃f5f2f0;
+}
+
+/ *内联代码* /
+：not（pre）> code [class * =“ language-”] {
+	填充：.1em;
+	border-radius：.3em;
+	空格：正常；
+}
+
+.token.comment，
+.token.prolog，
+.token.doctype，
+.token.cdata {
+	颜色：弹性
+}
+
+.token.punctuation {
+	颜色：＃999;
+}
+
+.namespace {
+	不透明度：0.7；
+}
+
+.token.property，
+.token.tag，
+.token.boolean，
+.token.number，
+.token.constant，
+.token.symbol，
+.token.deleted {
+	颜色：＃905;
+}
+
+.token.selector，
+.token.attr-name，
+.token.string，
+.token.char，
+.token.builtin，
+.token.inserted {
+	颜色：＃690;
+}
+
+.token.operator，
+.token.entity，
+.token.url，
+.language-css .token.string，
+.style .token.string {
+	颜色：＃9a6e3a；
+	背景：hsla（0，0％，100％，.5）;
+}
+
+.token.atrule，
+.token.attr-value，
+.token.keyword {
+	颜色：＃07a；
+}
+
+令牌功能，
+.token.class-name {
+	颜色：＃DD4A68；
+}
+
+.token.regex，
+.token.important，
+.token.variable {
+	颜色：＃e90；
+}
+
+.token.important，
+.token.bold {
+	font-weight：粗体;
+}
+.token.italic {
+	字体样式：斜体；
+}
+
+.token.entity {
+	光标：帮助；
+}
